@@ -1,0 +1,21 @@
+'''
+
+WAP to find max among 3 numbers
+Input : 2 3 4
+Output : 4
+
+'''
+
+num1 = int(input("enter the number you want"))
+num2 = int(input("enter the number you want"))
+num3 = int(input("enter the number you want"))
+
+
+if num1 > num2 > num3 :
+    print(num1,"is the greatest")
+
+elif num2 > num1 > num3 :
+    print(num2,"is the greatest")
+
+else :
+    print(num3,"is the greatest")

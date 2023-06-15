@@ -1,0 +1,10 @@
+'''
+WAP to print the number from 0 to 100
+'''
+
+from errno import WSAEDQUOT
+
+
+for i in range(1, 101):
+    print(i)
+    

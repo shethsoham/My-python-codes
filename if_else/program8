@@ -1,0 +1,10 @@
+'''WAP to check whether the alphabet lies between I to S'''
+
+
+var = input ("enter the variable you want ")
+
+if var >= 'I' and var <= 'S' :
+    print(var,"the variable is between I to S")
+else :
+    print (var, "the variable is not betwen I and S")
+    

@@ -1,0 +1,20 @@
+
+'''
+Program 6: Write a Program to check whether the Character is Alphabet or
+not.
+Input: v
+Output: v is an alphabet.
+
+
+'''
+
+var = input("enter the number you want")
+
+if var>'a' and var<'z' or var >'A' and var < 'Z':
+    print ("the variable is alphabate")
+else :
+    print("var is invalid")
+
+
+
+    

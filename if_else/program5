@@ -1,0 +1,16 @@
+'''
+WAP to find min among 3 numbers
+
+
+'''
+
+num1 = int(input("enter the number you want"))
+num2 = int(input("enter the number you want"))
+num3 = int(input("enter the number you want"))
+
+if num1 < num2 < num3 :
+    print (num1,"enter the number you want")
+if num2 < num1 < num3 :
+    print (num2,"enter the number you want")
+if num3 < num1 < num2 :
+    print (num3,"enter the number you want")

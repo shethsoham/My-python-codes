@@ -1,0 +1,14 @@
+'''WAP to take check whether the input is a leap year or not '''
+
+from errno import WSAEDQUOT
+
+
+year = int(input("enter the year you wish"))
+
+if year % 4 == 0 :
+    print (year,"it is a leap year ")
+else :
+    print (year,"it is not a leap year")
+
+    
+    
