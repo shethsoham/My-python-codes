@@ -13,6 +13,7 @@ for i in range(0,rows):
     for j in range(rows+i, m):
         print(" ",end="")
     
+    
     print()
 for i in range(rows,m):
     i = i - rows
