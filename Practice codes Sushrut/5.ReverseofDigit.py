@@ -2,3 +2,4 @@
 
 user_input = int(input("Enter the 4 digit number"))
 
+first_digit = user_input//10
